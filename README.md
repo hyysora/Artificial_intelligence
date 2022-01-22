@@ -1,1 +1,1 @@
-# Artificial_intelligence_project
+# Artificial_intelligence
