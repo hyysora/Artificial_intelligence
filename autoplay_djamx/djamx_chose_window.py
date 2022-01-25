@@ -43,8 +43,8 @@ class MyWindow(QWidget):
             print('start')
             h = self.sender().windowTitle()
             win_h = int(h)
-            win32gui.ShowWindow(win_h, win32con.SW_RESTORE)  # 强行显示界面后才好截图
-            win32gui.SetForegroundWindow(win_h)  # 将窗口提到最前
+            win32gui.ShowWindow(win_h, win32con.SW_RESTORE)
+            win32gui.SetForegroundWindow(win_h)
             time.sleep(1)
             flag = False
             while True:
